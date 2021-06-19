@@ -1,0 +1,16 @@
+{
+  "name": "dependent",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@internal/dep1": "file:../dep1",
+    "dep2": "file:../dep2",
+    "tea": "0.1.0"
+  }
+}
